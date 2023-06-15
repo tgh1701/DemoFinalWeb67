@@ -2,7 +2,13 @@ import styled from "styled-components";
 import NavBar from "../components/NavBar";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
-import { Add, Remove } from "@mui/icons-material";
+import {Add, Remove} from "@mui/icons-material";
+import {useSelector} from "react-redux";
+import StripeCheckout from "react-stripe-checkout";
+import {useState} from "react";
+import {useEffect} from "react";
+import {userRequest} from "../requestMethod";
+import {Link, useNavigate} from "react-router-dom";
 
 const Container = styled.div``;
 
@@ -146,6 +152,27 @@ const SummaryButton = styled.button`
 `;
 
 const Cart = () => {
+  const cart = useSelector((state) => state.cart);
+  const [stripeToken, setStripeToken] = useState(null);
+  const navigate = useNavigate();
+
+  const onToken = (token) => {
+    setStripeToken(token);
+  };
+
+  useEffect(() => {
+    const makeRequest = async () => {
+      try {
+        const res = await userRequest.post("/checkout/payment", {
+          tokenId: stripeToken.id,
+          amount: cart.total * 100,
+        });
+        navigate("/success", {data: res.data});
+      } catch (error) {}
+    };
+    stripeToken && makeRequest();
+  }, [stripeToken, cart.total, navigate]);
+
   return (
     <Container>
       <Announcement />
@@ -153,60 +180,62 @@ const Cart = () => {
       <Wrapper>
         <Title>YOUR BAG</Title>
         <Top>
-          <TopButton>CONTINURE SHOPPING</TopButton>
+          <Link
+            style={{
+              color: "black",
+              textDecoration: "none",
+            }}
+            to="/"
+          >
+            <TopButton>CONTINUE SHOPPING</TopButton>
+          </Link>
           <TopTexts>
-            <TopText>Shopping Bag(2)</TopText>
-            <TopText>Your Wishlist (0)</TopText>
+            <TopText>Shopping Bag</TopText>
+            <TopText>Your Wishlist</TopText>
           </TopTexts>
           <TopButton type="filled">CHECKOUT NOW</TopButton>
         </Top>
         <Bottom>
           <Info>
-            <Product>
-              <ProductDetail>
-                <Image src="" />
-                <Details>
-                  <ProductName></ProductName>
-                  <ProductId></ProductId>
-                  <ProductColor color="black" />
-                  <ProductSize></ProductSize>
-                </Details>
-              </ProductDetail>
-              <PriceDetail>
-                <ProductAmountContainer>
-                  <Remove />
-                  <ProductAmount>2</ProductAmount>
-                  <Add />
-                </ProductAmountContainer>
-                <ProductPrice>$ 30</ProductPrice>
-              </PriceDetail>
-            </Product>
+            {cart.products.map((product) => (
+              <Product>
+                <ProductDetail>
+                  <Image src={product.img} />
+                  <Details>
+                    <ProductName>
+                      <b>Product: </b>
+                      {product.title}
+                    </ProductName>
+                    <ProductId>
+                      <b>ID: </b>
+                      {product._id}
+                    </ProductId>
+                    <ProductColor color={product.color} />
+                    <ProductSize>
+                      <b>Size: </b>
+                      {product.size}
+                    </ProductSize>
+                  </Details>
+                </ProductDetail>
+                <PriceDetail>
+                  <ProductAmountContainer>
+                    <Remove />
+                    <ProductAmount>{product.quantity}</ProductAmount>
+                    <Add />
+                  </ProductAmountContainer>
+                  <ProductPrice>
+                    $ {product.price * product.quantity}
+                  </ProductPrice>
+                </PriceDetail>
+              </Product>
+            ))}
             <Hr />
-            <Product>
-              <ProductDetail>
-                <Image src="" />
-                <Details>
-                  <ProductName></ProductName>
-                  <ProductId></ProductId>
-                  <ProductColor color="gray" />
-                  <ProductSize></ProductSize>
-                </Details>
-              </ProductDetail>
-              <PriceDetail>
-                <ProductAmountContainer>
-                  <Remove />
-                  <ProductAmount>2</ProductAmount>
-                  <Add />
-                </ProductAmountContainer>
-                <ProductPrice>$ 30</ProductPrice>
-              </PriceDetail>
-            </Product>
           </Info>
           <Summary>
             <SummaryTitle>ORDER SUMMARY</SummaryTitle>
             <SummaryItem>
               <SummaryItemText>Subtotal</SummaryItemText>
-              <SummaryItemPrice>$ 80</SummaryItemPrice>
+              <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Estimated Shipping</SummaryItemText>
@@ -214,13 +243,24 @@ const Cart = () => {
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Shipping Discount</SummaryItemText>
-              <SummaryItemPrice>$ -2</SummaryItemPrice>
+              <SummaryItemPrice>$ -5</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem type="total">
               <SummaryItemText>Total</SummaryItemText>
-              <SummaryItemPrice>$ 70</SummaryItemPrice>
+              <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
             </SummaryItem>
-            <SummaryButton>CHECKOUT NOW</SummaryButton>
+            <StripeCheckout
+              name="Hienqlo."
+              image="https://img.freepik.com/premium-vector/cute-orange-robot-cat-avatar_79416-86.jpg?w=2000"
+              billingAddress
+              shippingAddress
+              description={`Your total is ${cart.total}`}
+              amount={cart.total * 100}
+              token={onToken}
+              stripeKey="pk_test_51NHTQoC38sz6HJhuE9xSxPjbU5LleyiBY9kBBPvD4FU9LAzZad2W8e3dIJj8j2GHhGthzQUaSDz97hsEGFhR16kn00vIDhCzD1"
+            >
+              <SummaryButton>CHECKOUT NOW</SummaryButton>
+            </StripeCheckout>
           </Summary>
         </Bottom>
       </Wrapper>
