@@ -37,7 +37,7 @@ router.post("/login", async (req, res) => {
         isAdmin: user.isAdmin,
       },
       process.env.JWT_SECRET,
-      {expiresIn: "1d"}
+      {expiresIn: "30d"}
     );
     if (OriginalPassword !== req.body.password) {
       return res.status(401).json("Wrong username or password");

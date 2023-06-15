@@ -1,0 +1,492 @@
+[
+  {
+    "title": "T-Shirt 1",
+    "desc": "Faded round neck T-shirt with short sleeves. Contrast prints on the front and back. Faded with ripped effect finish.",
+    "img": "https://static.zara.net/photos///2023/I/0/2/p/6224/319/822/2/w/1126/6224319822_6_1_1.jpg?ts=1684763111552",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 129,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 2",
+    "desc": "Boxy fit collared shirt. Long sleeves featuring adjustable cuffs with snap-buttons. Chest patch pockets. Snap-button fastening on the front hidden by a placket.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/2599/410/406/2/w/850/2599410406_6_1_1.jpg?ts=1676461921127",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 229,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 3",
+    "desc": "Faded-effect short sleeve T-shirt with a round neck. Contrast slogan print on the front.",
+    "img": "https://static.zara.net/photos///2023/I/0/2/p/0495/318/922/2/w/1126/0495318922_6_1_1.jpg?ts=1684149158619",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 239,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 4",
+    "desc": "Faded-effect short sleeve T-shirt with a round neck. Contrast slogan print on the front.",
+    "img": "https://static.zara.net/photos///2023/I/0/1/p/4374/301/801/2/w/1126/4374301801_6_1_1.jpg?ts=1686210512919",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 269,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 5",
+    "desc": "Faded-effect short sleeve T-shirt with a round neck. Contrast slogan print on the front.",
+    "img": "https://static.zara.net/photos///2023/I/0/2/p/6224/320/822/2/w/1126/6224320822_6_1_1.jpg?ts=1684763110291",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 239,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 6",
+    "desc": "Faded-effect short sleeve T-shirt with a round neck. Contrast slogan print on the front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/1165/415/250/2/w/850/1165415250_6_1_1.jpg?ts=1675157991991",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 469,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 7",
+    "desc": "Faded-effect short sleeve T-shirt with a round neck. Contrast slogan print on the front.",
+    "img": "https://static.zara.net/photos///2023/I/0/2/p/3166/304/822/2/w/1126/3166304822_1_1_1.jpg?ts=1686657292961",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 459,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 8",
+    "desc": "Faded-effect short sleeve T-shirt with a round neck. Contrast slogan print on the front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/1023/412/903/2/w/1126/1023412903_6_1_1.jpg?ts=1682326688283",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 369,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 9",
+    "desc": "Faded-effect short sleeve T-shirt with a round neck. Contrast slogan print on the front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/3284/302/712/2/w/1126/3284302712_6_1_1.jpg?ts=1685355150342",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 249,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 10",
+    "desc": "Faded-effect short sleeve T-shirt with a round neck. Contrast slogan print on the front.",
+    "img": "https://static.zara.net/photos///2023/I/0/2/p/4087/307/712/2/w/1126/4087307712_6_1_1.jpg?ts=1685093559134",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 349,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 11",
+    "desc": "Faded-effect short sleeve T-shirt with a round neck. Contrast slogan print on the front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/4231/417/712/2/w/1126/4231417712_6_1_1.jpg?ts=1684420565880",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 239,
+    "inStock": true
+  },
+  {
+    "title": "T-Shirt 12",
+    "desc": "Faded-effect short sleeve T-shirt with a round neck. Contrast slogan print on the front.",
+    "img": "https://static.zara.net/photos///2023/I/0/2/p/6224/327/251/2/w/1126/6224327251_6_1_1.jpg?ts=1684936917005",
+    "categories": ["t-shirt", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 129,
+    "inStock": true
+  },
+  {
+    "title": "Dress 1",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/I/0/1/p/7521/245/804/2/w/1126/7521245804_6_1_1.jpg?ts=1685619483231",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 99,
+    "inStock": true
+  },
+  {
+    "title": "Dress 2",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/V/0/1/p/2142/066/800/2/w/1126/2142066800_6_1_1.jpg?ts=1678178193840",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 119,
+    "inStock": true
+  },
+  {
+    "title": "Dress 3",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/V/0/1/p/0387/067/800/2/w/1126/0387067800_6_1_1.jpg?ts=1681984056299",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 139,
+    "inStock": true
+  },
+  {
+    "title": "Dress 4",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/V/0/1/p/4387/064/800/2/w/1126/4387064800_6_1_1.jpg?ts=1678869279126",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 129,
+    "inStock": true
+  },
+  {
+    "title": "Dress 5",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/I/0/1/p/7492/915/916/2/w/1126/7492915916_6_2_1.jpg?ts=1685011295298",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 149,
+    "inStock": true
+  },
+  {
+    "title": "Dress 6",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/V/0/1/p/2712/344/120/2/w/1126/2712344120_6_1_1.jpg?ts=1686035152224",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 129,
+    "inStock": true
+  },
+  {
+    "title": "Dress 7",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/I/0/1/p/7597/118/250/2/w/1126/7597118250_6_1_1.jpg?ts=1685011294389",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 359,
+    "inStock": true
+  },
+  {
+    "title": "Dress 8",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/I/0/1/p/7521/240/485/2/w/1126/7521240485_6_1_1.jpg?ts=1685619483049",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 139,
+    "inStock": true
+  },
+  {
+    "title": "Dress 9",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/I/0/1/p/7491/908/800/2/w/1126/7491908800_6_1_1.jpg?ts=1685003087993",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 359,
+    "inStock": true
+  },
+  {
+    "title": "Dress 10",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/I/0/1/p/7633/120/727/3/w/1126/7633120727_1_1_1.jpg?ts=1685097162079",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 229,
+    "inStock": true
+  },
+  {
+    "title": "Dress 11",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/I/0/1/p/7607/120/251/2/w/1126/7607120251_6_1_1.jpg?ts=1685011294504",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 259,
+    "inStock": true
+  },
+  {
+    "title": "Dress 12",
+    "desc": "Midi dress with a V-neckline and straps. Sequin appliqué details. Matching lining.",
+    "img": "https://static.zara.net/photos///2023/I/0/1/p/7632/120/251/2/w/1126/7632120251_6_1_1.jpg?ts=1685011294691",
+    "categories": ["dress", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 239,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 1",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/6688/464/736/2/w/1126/6688464736_6_1_1.jpg?ts=1675764657757",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 339,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 1",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2022/I/0/2/p/5575/440/427/2/w/1126/5575440427_6_1_1.jpg?ts=1657539248317",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 179,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 2",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/8062/405/406/2/w/1126/8062405406_6_1_1.jpg?ts=1672847945077",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 169,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 3",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/8062/475/401/2/w/1126/8062475401_6_1_1.jpg?ts=1672821645681",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 159,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 4",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2022/I/0/2/p/5575/425/800/2/w/1126/5575425800_6_1_1.jpg?ts=1660209674144",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 139,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 5",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/1538/485/251/2/w/1126/1538485251_6_1_1.jpg?ts=1676017765542",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 129,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 6",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/0840/400/822/2/w/1126/0840400822_6_1_1.jpg?ts=1674040018508",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 679,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 7",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/4060/301/406/2/w/1126/4060301406_6_1_1.jpg?ts=1673857390993",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 369,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 8",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/8062/405/710/2/w/1126/8062405710_6_1_1.jpg?ts=1680185484697",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 289,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 9",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/5862/402/407/2/w/1126/5862402407_1_1_1.jpg?ts=1673947123277",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 359,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 10",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/5862/404/436/2/w/1126/5862404436_6_1_1.jpg?ts=1678894573958",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 249,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 11",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/2553/499/802/2/w/1126/2553499802_6_1_1.jpg?ts=1675687749689",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 789,
+    "inStock": true
+  },
+  {
+    "title": "Jeans 12",
+    "desc": "Slim fit jeans. Five pockets. Faded effect. Front zip fly and button fastening.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/8062/407/407/2/w/1126/8062407407_6_1_1.jpg?ts=1680598832039",
+    "categories": ["jeans", "men"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 369,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 1",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/7505/467/251/2/w/1126/7505467251_6_1_1.jpg?ts=1686296613719",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 279,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 2",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/I/0/2/p/0706/303/505/2/w/1126/0706303505_6_1_1.jpg?ts=1686148772579",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 599,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 3",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/I/0/2/p/4720/301/406/2/w/1126/4720301406_6_1_1.jpg?ts=1683813219546",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 459,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 4",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/5388/410/712/2/w/1126/5388410712_6_1_1.jpg?ts=1680001691490",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 459,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 5",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/I/0/2/p/5072/330/406/2/w/1126/5072330406_6_1_1.jpg?ts=1684136581049",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 229,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 6",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/4166/100/732/2/w/1126/4166100732_6_1_1.jpg?ts=1672160982246",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 239,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 7",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/3286/300/712/2/w/1126/3286300712_6_1_1.jpg?ts=1676884052907",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 230,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 8",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/6985/400/250/2/w/1126/6985400250_6_1_1.jpg?ts=1669302766844",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 220,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 9",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/7380/701/811/2/w/1126/7380701811_6_1_1.jpg?ts=1677682741920",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 200,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 10",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/4364/335/704/2/w/1126/4364335704_6_1_1.jpg?ts=1678893887340",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 140,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 11",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/7901/464/671/2/w/1126/7901464671_6_1_1.jpg?ts=1678112779413",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 130,
+    "inStock": true
+  },
+  {
+    "title": "Jacket 12",
+    "desc": "Collared cotton jacket. Featuring long sleeves with buttoned cuffs. Patch pockets with flaps at the hip and a zip-up front.",
+    "img": "https://static.zara.net/photos///2023/V/0/2/p/7901/444/526/2/w/1126/7901444526_6_1_1.jpg?ts=1678112703867",
+    "categories": ["jacket", "men", "women"],
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Green", "Blue", "Black", "Red", "Yellow", "Purple"],
+    "price": 120,
+    "inStock": true
+  }
+]
