@@ -49,4 +49,8 @@ router.post("/login", async (req, res) => {
   }
 });
 
+router.post("/logout", async (req, res) => {
+  res.status(200).json("Logged out successfully");
+});
+
 module.exports = router;

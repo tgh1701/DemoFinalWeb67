@@ -34,8 +34,13 @@ const verifyTokenAndAdmin = (req, res, next) => {
   });
 };
 
+const removeTokenFromLocalStorage = () => {
+  localStorage.removeItem("persist:root");
+};
+
 module.exports = {
   verifyToken,
   verifyTokenAndAuthorization,
   verifyTokenAndAdmin,
+  removeTokenFromLocalStorage,
 };
