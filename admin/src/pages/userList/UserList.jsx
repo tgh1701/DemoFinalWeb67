@@ -62,10 +62,21 @@ export default function UserList() {
     },
   ];
 
+  const formattedUsers =
+    users?.map((user) => ({
+      id: user._id,
+      username: user.username,
+      email: user.email,
+      isAdmin: user.isAdmin,
+      password: user.password,
+      createdAt: user.createdAt,
+      updatedAt: user.updatedAt,
+    })) || [];
+
   return (
     <div className="userList">
       <DataGrid
-        rows={users}
+        rows={formattedUsers}
         disableSelectionOnClick
         columns={columns}
         pageSize={8}
