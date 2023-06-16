@@ -4,8 +4,9 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import React from "react";
 import styled from "styled-components";
 import {mobile} from "../responsive";
-import {Link} from "react-router-dom";
-import {useSelector} from "react-redux";
+import {Link, useNavigate} from "react-router-dom";
+import {useSelector, useDispatch} from "react-redux";
+import {logout} from "../redux/apiCalls";
 
 const Container = styled.div`
   position: sticky;
@@ -81,6 +82,21 @@ const MenuItem = styled.div`
 
 const NavBar = () => {
   const quantity = useSelector((state) => state.cart.quantity);
+  const user = useSelector((state) => state.user.currentUser);
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    logout(dispatch);
+  };
+
+  const handleCheckout = () => {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      navigate("/login");
+    }
+    console.log(token);
+  };
 
   return (
     <Container>
@@ -103,33 +119,57 @@ const NavBar = () => {
             <Logo>HIENQLO.</Logo>
           </Link>
         </Center>
-        <Right>
-          <Link
-            style={{
-              color: "black",
-              textDecoration: "none",
-            }}
-            to="/register"
-          >
-            <MenuItem>REGISTER</MenuItem>
-          </Link>
-          <Link
-            style={{
-              color: "black",
-              textDecoration: "none",
-            }}
-            to="/login"
-          >
-            <MenuItem>SIGN IN</MenuItem>
-          </Link>
-          <Link to="/cart">
-            <MenuItem>
-              <Badge badgeContent={quantity} color="primary">
-                <ShoppingCartOutlinedIcon />
-              </Badge>
-            </MenuItem>
-          </Link>
-        </Right>
+        {user ? (
+          <Right>
+            <MenuItem>HI, {user.username}</MenuItem>
+            <Link
+              style={{
+                color: "black",
+                textDecoration: "none",
+              }}
+              to="/"
+              onClick={handleLogout}
+            >
+              <MenuItem>LOG OUT</MenuItem>
+            </Link>
+            <Link to="/cart">
+              <MenuItem>
+                <Badge badgeContent={quantity} color="primary">
+                  <ShoppingCartOutlinedIcon />
+                </Badge>
+              </MenuItem>
+            </Link>
+          </Right>
+        ) : (
+          <Right>
+            <Link
+              style={{
+                color: "black",
+                textDecoration: "none",
+              }}
+              to="/register"
+            >
+              <MenuItem>REGISTER</MenuItem>
+            </Link>
+            <Link
+              style={{
+                color: "black",
+                textDecoration: "none",
+              }}
+              to="/login"
+            >
+              <MenuItem>SIGN IN</MenuItem>
+            </Link>
+            <Link to="/login">
+              {" "}
+              <MenuItem onClick={handleCheckout}>
+                <Badge badgeContent={quantity} color="primary">
+                  <ShoppingCartOutlinedIcon />
+                </Badge>
+              </MenuItem>
+            </Link>
+          </Right>
+        )}
       </Wrapper>
     </Container>
   );
