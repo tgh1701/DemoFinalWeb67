@@ -33,12 +33,22 @@ export default function ProductList() {
         );
       },
     },
-    {field: "inStock", headerName: "Stock", width: 200},
+    {
+      field: "desc",
+      headerName: "Description",
+      width: 300,
+    },
+    {
+      field: "categories",
+      headerName: "Categories",
+      width: 200,
+    },
     {
       field: "price",
       headerName: "Price",
-      width: 160,
+      width: 200,
     },
+    {field: "inStock", headerName: "Stock", width: 200},
     {
       field: "action",
       headerName: "Action",

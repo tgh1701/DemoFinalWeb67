@@ -7,6 +7,7 @@ import {userRequest} from "../../requestMethods";
 export default function FeaturedInfo() {
   const [income, setIncome] = useState([]);
   const [perc, setPerc] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const getIncome = async () => {
@@ -16,12 +17,22 @@ export default function FeaturedInfo() {
         if (res.data.length >= 2 && res.data[0]?.total !== 0) {
           setPerc((res.data[1].total * 100) / res.data[0].total - 100);
         }
+        setLoading(false);
       } catch (error) {
         console.log(error);
+        setLoading(false);
       }
     };
     getIncome();
+    const timer = setInterval(() => {
+      getIncome();
+    }, 5000);
+    return () => clearInterval(timer);
   }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="featured">
@@ -36,26 +47,6 @@ export default function FeaturedInfo() {
             ) : (
               <ArrowUpwardIcon className="featuredIcon" />
             )}
-          </span>
-        </div>
-        <span className="featuredSub">Compared to last month</span>
-      </div>
-      <div className="featuredItem">
-        <span className="featuredTitle">Sales</span>
-        <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$4,415</span>
-          <span className="featuredMoneyRate">
-            -1.4 <ArrowDownwardIcon className="featuredIcon negative" />
-          </span>
-        </div>
-        <span className="featuredSub">Compared to last month</span>
-      </div>
-      <div className="featuredItem">
-        <span className="featuredTitle">Cost</span>
-        <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$2,225</span>
-          <span className="featuredMoneyRate">
-            +2.4 <ArrowUpwardIcon className="featuredIcon" />
           </span>
         </div>
         <span className="featuredSub">Compared to last month</span>

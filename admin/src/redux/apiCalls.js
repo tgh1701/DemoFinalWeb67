@@ -1,3 +1,4 @@
+import {Navigate} from "react-router-dom";
 import {publicRequest, userRequest} from "../requestMethods";
 import {
   addProductStart,
@@ -30,6 +31,7 @@ export const login = async (dispatch, user) => {
   try {
     const res = await userRequest.post("/auth/login", user);
     dispatch(loginSuccess(res.data));
+    Navigate("/");
   } catch (error) {
     dispatch(loginFailure());
   }
@@ -48,8 +50,8 @@ export const getProducts = async (dispatch) => {
 export const deleteProduct = async (id, dispatch) => {
   dispatch(deleteProductStart());
   try {
-    // const res = await userRequest.delete(`/products/${id}`);
-    dispatch(deleteProductSuccess(id)); //res.data
+    const res = await userRequest.delete(`/products/${id}`);
+    dispatch(deleteProductSuccess(res.data)); //res.data
   } catch (error) {
     dispatch(deleteProductFailure());
   }
@@ -58,7 +60,7 @@ export const deleteProduct = async (id, dispatch) => {
 export const updateProduct = async (id, product, dispatch) => {
   dispatch(updateProductStart());
   try {
-    // const res = await userRequest.put(`/products/${id}`);
+    const res = await userRequest.put(`/products/${id}`);
     dispatch(updateProductSuccess({id, product}));
   } catch (error) {
     dispatch(updateProductFailure());
@@ -88,8 +90,8 @@ export const getUsers = async (dispatch) => {
 export const deleteUser = async (id, dispatch) => {
   dispatch(deleteUserStart());
   try {
-    // const res = await userRequest.delete(`/products/${id}`);
-    dispatch(deleteUserSuccess(id)); //res.data
+    const res = await userRequest.delete(`/users/${id}`);
+    dispatch(deleteUserSuccess(res.data));
   } catch (error) {
     dispatch(deleteUserFailure());
   }
