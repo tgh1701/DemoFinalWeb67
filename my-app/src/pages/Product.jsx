@@ -38,7 +38,7 @@ const InfoContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  font-weight: 200;
+  font-weight: 800;
 `;
 
 const Description = styled.p`
@@ -46,8 +46,8 @@ const Description = styled.p`
 `;
 
 const Price = styled.span`
-  font-weight: 100;
-  font-size: 40px;
+  font-weight: 600;
+  font-size: 30px;
 `;
 
 const FilterContainer = styled.div`

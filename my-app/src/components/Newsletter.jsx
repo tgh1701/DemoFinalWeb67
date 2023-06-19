@@ -1,9 +1,9 @@
 import styled from "@emotion/styled";
-import { Send } from "@mui/icons-material";
-import { mobile } from "../responsive";
+import {Send} from "@mui/icons-material";
+import {mobile} from "../responsive";
 
 const Container = styled.div`
-  height: 60vh;
+  height: 40vh;
   background-color: #fcf5f5;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@ const Description = styled.div`
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 20px;
-  ${mobile({ textAlign: "center" })}
+  ${mobile({textAlign: "center"})}
 `;
 
 const InputContainer = styled.div`
@@ -30,7 +30,7 @@ const InputContainer = styled.div`
   display: flex;
   justify-content: space-between;
   border: 1px solid lightgrey;
-  ${mobile({ width: "80%" })}
+  ${mobile({width: "80%"})}
 `;
 
 const Input = styled.input`

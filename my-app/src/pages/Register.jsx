@@ -27,7 +27,7 @@ const Wrapper = styled.div`
 
 const Form = styled.form`
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 `;
 
 const Title = styled.h1`

@@ -1,24 +1,27 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://www.pngarts.com/files/2/Model-PNG-Pic.png",
+    img: "https://static.zara.net/photos///contents/mkt/spots/ss23-north-man-new/subhome-xmedia-24//w/1920/IMAGE-landscape-fill-9d535ee8-5bef-4ab5-b340-dfb274e96dbb-default_0.jpg?ts=1686843456784",
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "f5fafd",
+    cat: "men",
   },
   {
     id: 2,
-    img: "https://www.pngarts.com/files/2/Model-Transparent-Background-PNG.png",
+    img: "https://static.zara.net/photos///contents/mkt/spots/ss23-north-man-shoes/subhome-xmedia-24//w/1920/IMAGE-landscape-fill-0fdbdf17-c0f8-43e4-ace5-41e41baf6168-default_0.jpg?ts=1686845061624",
     title: "AUTUMN COLLECTION",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "fcf1ed",
+    cat: "women",
   },
   {
     id: 3,
-    img: "https://www.pngarts.com/files/2/Model-PNG-Free-Download.png",
+    img: "https://static.zara.net/photos///contents/mkt/spots/ss23-north-man-linen/subhome-xmedia-24//w/1920/IMAGE-landscape-fill-d821cfd3-5493-4ccf-b1ee-d5e925c712fd-default_0.jpg?ts=1686845694248",
     title: "LOUNGEWEAR LOVE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "ffe4b5",
+    cat: "men",
   },
 ];
 
@@ -37,8 +40,8 @@ export const categories = [
   },
   {
     id: 3,
-    img: "https://i.pinimg.com/564x/95/8a/f6/958af6c1b089dc57df7d90b426360f04.jpg",
-    title: "Demin on Demin",
+    img: "https://i.pinimg.com/564x/1e/c3/5c/1ec35c3a459d1014c6a91d6cbcbbdea3.jpg",
+    title: "JEANS",
     cat: "jeans",
   },
 ];

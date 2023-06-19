@@ -3,6 +3,7 @@ import React, {useEffect, useState} from "react";
 import styled from "styled-components";
 import {sliderItems} from "../data";
 import {mobile} from "../responsive";
+import {Link} from "react-router-dom";
 
 const Container = styled.div`
   width: 100%;
@@ -44,7 +45,9 @@ const Slide = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #${(props) => props.bg};
+  background-image: ${(props) => `url(${props.img})`};
+  background-size: cover;
+  background-position: center;
 `;
 
 const ImgContainer = styled.div`
@@ -63,10 +66,12 @@ const InfoContainer = styled.div`
 `;
 
 const Title = styled.h1`
+  color: white;
   font-size: 70px;
 `;
 
 const Description = styled.p`
+  color: white;
   margin: 50px 0px;
   font-size: 20px;
   font-weight: 500;
@@ -74,13 +79,14 @@ const Description = styled.p`
 `;
 
 const Button = styled.button`
+  border: none;
   padding: 10px;
-  font-size: 20px;
-  background-color: transparent;
+  background-color: white;
+  color: black;
   cursor: pointer;
+  font-weight: 600;
   position: relative;
   overflow: hidden;
-  transition: font-weight 0s ease, opacity 0s ease;
   &::before {
     content: "";
     position: absolute;
@@ -98,12 +104,10 @@ const Button = styled.button`
     transform: scaleX(1);
   }
   &:hover {
-    font-weight: bold;
-    opacity: 0.8;
+    color: black;
   }
   &:focus {
-    font-weight: bold;
-    opacity: 0.8;
+    color: black;
   }
 `;
 
@@ -137,14 +141,20 @@ const Slider = () => {
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
         {sliderItems.map((item) => (
-          <Slide bg={item.bg} key={item.id}>
-            <ImgContainer>
-              <Image src={item.img} />
-            </ImgContainer>
+          <Slide img={item.img} key={item.id}>
+            <ImgContainer>{/* <Image src={item.img} /> */}</ImgContainer>
             <InfoContainer>
               <Title>{item.title}</Title>
               <Description>{item.desc}</Description>
-              <Button>SHOP NOW</Button>
+              <Link
+                style={{
+                  color: "black",
+                  textDecoration: "none",
+                }}
+                to={`/products/${item.cat}`}
+              >
+                <Button>SHOP NOW</Button>
+              </Link>
             </InfoContainer>
           </Slide>
         ))}

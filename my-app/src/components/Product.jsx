@@ -60,6 +60,16 @@ const Icon = styled.div`
   }
 `;
 
+const Name = styled.span`
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+`;
+
+const Price = styled.span`
+  font-size: 16px;
+`;
+
 const Product = ({item}) => {
   return (
     <Container>

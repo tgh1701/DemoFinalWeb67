@@ -135,7 +135,11 @@ const NavBar = () => {
             <Link to="/cart">
               <MenuItem>
                 <Badge badgeContent={quantity} color="primary">
-                  <ShoppingCartOutlinedIcon />
+                  <ShoppingCartOutlinedIcon
+                    style={{
+                      color: "black",
+                    }}
+                  />
                 </Badge>
               </MenuItem>
             </Link>
@@ -164,7 +168,11 @@ const NavBar = () => {
               {" "}
               <MenuItem onClick={handleCheckout}>
                 <Badge badgeContent={quantity} color="primary">
-                  <ShoppingCartOutlinedIcon />
+                  <ShoppingCartOutlinedIcon
+                    style={{
+                      color: "black",
+                    }}
+                  />
                 </Badge>
               </MenuItem>
             </Link>
