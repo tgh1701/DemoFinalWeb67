@@ -26,7 +26,7 @@ const verifyTokenAndAuthorization = (req, res, next) => {
 
 const verifyTokenAndAdmin = (req, res, next) => {
   verifyToken(req, res, () => {
-    if (req.user.isAdmin) {
+    if (req.user.isAdmin === true) {
       next();
     } else {
       res.status(403).json("You are not allowed to do that!");
@@ -34,13 +34,8 @@ const verifyTokenAndAdmin = (req, res, next) => {
   });
 };
 
-const removeTokenFromLocalStorage = () => {
-  localStorage.removeItem("persist:root");
-};
-
 module.exports = {
   verifyToken,
   verifyTokenAndAuthorization,
   verifyTokenAndAdmin,
-  removeTokenFromLocalStorage,
 };
